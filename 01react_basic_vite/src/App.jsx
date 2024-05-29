@@ -1,11 +1,9 @@
 
-
-
-
+import Psp from './psp.jsx'
 
 function App() {
   return (
-   <h1>React with PSP</h1>
+   <Psp/>
   )
 }
 
