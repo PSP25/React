@@ -7,7 +7,7 @@ import './App.css'
 
 //a direct change in the variable  in JS doesnot updates the UI in react
 //that is the reason react offered hooks thats internally takes control of the 
-//UI update of variable, states on any change in JS
+//UI update the (variable, states) on any change in JS
 //better read the react GitHub library
 
 
