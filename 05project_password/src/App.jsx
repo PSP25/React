@@ -27,7 +27,7 @@ function App() {
   }, [length, numAllowed, charAllowed, setPassword]);
   
   const copy_password=useCallback(()=>{
-    //useRef is used here to optimise the user experience by fiving
+    //useRef is used here to optimise the user experience by giving
     //them option to select length,select the text etc.
 
     passwordRef.current?.select();
