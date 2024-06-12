@@ -10,7 +10,7 @@ function useCurrencyInfo(currency){
         .then((res)=>res.json())
         .then((res)=>setData(res[currency]))
 
-        // console.log(data);
+        console.log(data);
 
     },[currency])
     //what to return data (or) [data, setdata] (or) 
