@@ -6,7 +6,9 @@ function login() {
     const [username, setUsername] = useState("");
     const [password, setPassword] = useState("");
 
+    //access the setUser method 
     const {setUser}=useContext(UserContext)
+
       //password verification function
     const handleSubmit = (e) => {
         e.preventDefault();
@@ -14,7 +16,7 @@ function login() {
     };
     return (
       <div>
-        <h2>login</h2>
+        <h2>Login</h2>
         <input
           type="text"
           value={username}
