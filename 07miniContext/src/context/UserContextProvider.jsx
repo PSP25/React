@@ -2,6 +2,7 @@ import React from "react";
 import UserContext from "./UserContext";
 
 //children is anything that is given by UserContext, pass it as it is
+//if userContext is a box then the children are the components we want in them
 //it can be div, etc.
 
 const UserContextProvider=({children})=>{
